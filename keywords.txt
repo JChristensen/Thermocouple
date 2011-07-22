@@ -1,0 +1,3 @@
+Thermocouple	KEYWORD1
+readC	KEYWORD2
+readF	KEYWORD2
