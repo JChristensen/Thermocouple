@@ -19,7 +19,7 @@ There are only a few things that you need to know in order to use this library.
 	float myTemp;
 	myTemp = tc1.readC();
 	
-5. The temperature returned by either readC() or by readF() is a moving average of the last six consecutive readings.  This technique is useful to smooth out short-term variations in the readings.  	The assumption is that the read function will be called on a more-or-less regular basis.  Do not call readC() or readF() more than about four times per second, as the MAX6675 has a 220 millisecond conversion time.
+5. The temperature returned by either readC() or by readF() is a moving average of the last six consecutive readings.  This technique is useful to smooth out short-term variations in the readings.  The assumption is that the read function will be called on a more-or-less regular basis.  Do not call readC() or readF() more than about four times per second, as the MAX6675 has a 220 millisecond conversion time.
 	
 See the complete examples included with the library.
 See the datasheet for a complete description of the MAX6675:
